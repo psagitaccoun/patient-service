@@ -17,9 +17,9 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Table(name="patients")
-public class UserDetails {
+public class Patient {
     @Id
-    private String id;
+    private String studentId;
     private String name;
     private int age;
     private String gender;
