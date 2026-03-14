@@ -19,7 +19,7 @@ import java.util.List;
 @Table(name="patients")
 public class UserDetails {
     @Id
-    private String id;
+    private String personID;
     private String name;
     private int age;
     private String gender;
