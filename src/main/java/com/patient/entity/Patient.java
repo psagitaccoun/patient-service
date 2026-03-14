@@ -20,6 +20,7 @@ import java.util.List;
 public class Patient {
     @Id
     private String personID;
+    private String subName;
     private String name;
     private int age;
     private String gender;
